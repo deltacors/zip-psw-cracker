@@ -1,9 +1,6 @@
-# modules
 import zipfile
 import optparse
 from threading import Thread
-
-zFile = zipfile.ZipFile("test.zip")
 
 def extractFile(zFile, pwd):
 	# try the password
@@ -33,12 +30,12 @@ def main():
 	except Exception as e:
 		print('[+] Error! ',e)
 		exit(0)
-	# loop the dictionary
+	# loop through the dictionary
 	for word in dictionary.readlines():
 		pwd = word.strip('\n')
 		print('[+] Trying "'+pwd+'" ...')
 		t = Thread(target=extractFile, args=(zFile, pwd))
 		t.start()
+# start here!
 if __name__ == '__main__':
 	main()
-		
