@@ -17,14 +17,6 @@ For this operation you need to have git installed on your system.
 # How do I use it?
 Navigate to the folder where the file zip-psw-cracker.py has been downloaded or cloned and type from a Terminal of your choice: 
 
-<pre><code>python3 zip-psw-cracker.py -h</code></pre>
-
-<pre><code>
-python3 -f <file-you-want-to-crack.zip> -d <wordlist-of-your-choice.txt>
-</code></pre>
-
-Usage example:
-
 <pre><code>python3 zip-psw-cracker.py -f path/to/zip/archive.zip -d path/to/wordlist.txt</code></pre>
 
 Use it responsably.
