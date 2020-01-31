@@ -19,4 +19,4 @@ Navigate to the folder where the file zip-psw-cracker.py has been downloaded or 
 
 <pre><code>python3 zip-psw-cracker.py -f path/to/zip/archive.zip -d path/to/wordlist.txt</code></pre>
 
-Use it responsably.
+Use it responsibly.
